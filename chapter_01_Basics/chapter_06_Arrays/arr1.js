@@ -1,0 +1,11 @@
+let fruits = ["cherry", "banana", "apple", "mango", "kiwi"];
+console.log(fruits[0]); 
+console.log(fruits[1]); 
+console.log(fruits[2]); 
+console.log(fruits[3]); 
+console.log(fruits[4]); 
+console.log(fruits[-1]);
+console.log(fruits.at(-2));
+let lastFruit = fruits.pop();
+console.log(lastFruit);
+console.log(fruits);
